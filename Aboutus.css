@@ -1,0 +1,251 @@
+#banner{
+  width: 100%;
+  height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.75)), url(https://cdn.pixabay.com/photo/2014/11/26/11/45/gym-546138_640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+ 
+
+nav a{
+  color: white;
+  
+}
+#nav2{
+  background-color: rgba(105, 105, 105, 0.56);
+}
+
+  #nav2 a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+
+    &:hover{
+      background-color: rgb(55, 55, 55);
+      color: rgb(255, 255, 255);
+      box-shadow: 0 0 0 30px transparent;
+      animation: anit 1s;
+    }
+  }
+  @keyframes anit{
+    0%{
+      box-shadow: 0 0 0 0px dimgray;
+    }
+  }
+
+  .bigheadingcard{
+    margin: 10px auto;
+    width: 90%;
+    /* height: 2500px; */
+    background-color: dimgray;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-radius: 25px;
+    
+  }
+
+  .bigheadingcard h6, p{
+    color: white;
+    width: 100%;
+    
+  
+  }
+
+  .bigheadingcard h5, h6, h3{
+    font-size: 2vw;
+  }
+  .bigheadingcard p{
+    font-size: 1vw;
+  }
+  .bigheadingcard h1{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    padding-top: 90px;
+  }
+
+
+
+   /* start card */
+
+   .container-1, .container-2, .container-3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 4em;
+    
+  }
+
+ 
+  
+  #card {
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: dimgray;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+    
+  }
+  
+  #card img {
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  #card h2 {
+    margin: 15px 0;
+    color: white;
+  }
+  #card h5{
+    background-color: #ffaa2b;
+    color: white;
+  }
+  #card p {
+    color: #282828;
+  }
+  #card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(27, 27, 27, 0.2);
+  }
+
+  /* image hover effect */
+
+.containerfbr img{
+border-radius: 80%;
+border: 2px solid white;
+margin: 5px;
+}
+
+/* Footer work */
+
+footer{
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+  
+  background: url(FSgym.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  z-index: 100;
+  border: none;
+  
+}
+footer .wave{
+position: absolute;
+top: -100px;
+left: 0;
+width: 100%;
+height: 100px;
+background:  url(mywave-removebg-preview.png);
+background-size: 1000px 100px;
+
+}
+
+footer .wave#wave1{ 
+z-index: 1000;
+opacity: 1;
+bottom: 0;
+animation: animateWave 4s linear infinite;
+}
+@keyframes animateWave{
+  0%{
+    background-position-x: 1000px;
+  }
+  100%{
+    background-position-x: 0px;
+  }
+}
+footer .wave#wave2{
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave2 4s linear infinite;
+  }
+  @keyframes animateWave2{
+    0%{
+      background-position-x: 0px;
+    }
+    100%{
+      background-position-x: 1000px;
+    }
+  }
+  footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave3 3s linear infinite;
+    }
+    @keyframes animateWave3{
+      0%{
+        background-position-x: 0px;
+      }
+      100%{
+        background-position-x: 1000px;
+      }
+    }
+    footer .wave#wave4{
+      z-index: 999;
+      opacity: 0.7;
+      bottom: 20;
+      animation: animateWave4 3s linear infinite;
+      }
+      @keyframes animateWave4{
+        0%{
+          background-position-x: 0px;
+        }
+        100%{
+          background-position-x: 1000px;
+        }
+      }
+      #icons{
+        display: flex;
+        
+        gap: 10px;
+        background-color: rgba(50, 50, 50, 0.738);
+        background: blur(30px);
+      }
+      .socialicons{
+        width: 30%;
+        font-size: 1vw;
+        color: white;
+        margin: 5px;
+        gap: 25px;
+        padding-left: 150px;
+        padding-top: 50px;
+        
+        &:hover{
+          
+          cursor: pointer;
+        }
+      }
+      .socialicons p ion-icon{
+        margin-right: 10px;
+      }
+      #h1{
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    
+      }
+      .social{
+        padding-top: 50px;
+        color: white;
+        font-size: 1vw;
+        width: 30%;
+      }
+      .social p{
+        text-align: center;
+      }
