@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     /* background: url(https://ideogram.ai/assets/image/lossless/response/RPWgjY2xQAK1k9FgvW7n_w); */
-    background: url(gym.avif);
+    background-image: url(gym.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
