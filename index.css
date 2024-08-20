@@ -6,9 +6,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;*/
-
-    /* background: linear-gradient(red 10%, blue 10%, orange 10%, white 10%, black 10%, yellow 10%, green 10%); */
-     background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    background-color: #2b4162;
+    background: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   }
   
  
